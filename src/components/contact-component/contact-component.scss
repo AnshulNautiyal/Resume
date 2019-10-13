@@ -1,0 +1,25 @@
+
+.user-contact-container {
+    width: 1000px;
+    margin:0 auto;
+    min-height: 3rem;
+    background: $contact-background;
+    display: flex;
+    align-items: center;
+    color: $user-text;
+    @include padding(0, 1.8rem, 0, 1.8rem);
+    .user-contact-details {
+
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $ft_8rem;
+        img {
+            margin-right: .8rem;
+            width: 25px;
+            height: 25px;
+            filter: brightness(0) invert(1);
+        }
+    }
+}

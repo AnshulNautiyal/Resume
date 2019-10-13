@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+$body-default-fonts: 'Roboto', sans-serif;
+$body-default-font-size:62.5%;
+
+
+// Background Color
+// Name-convention : $random_name_background
+$user-section-background : #4E90CD;
+$contact-background:#3F74A0;
+
+// Text Color 
+// Name-convention : $random-name-text
+$user-text:#FFFFFF;
+$work-exp-main-heading-text: #B2B2B2;
+$work-exp-heading-text:#000000;
+$work-exp-sub-text:#D7D7D7;
+
+// Border Color
+// Name-convention : $random_name_border 
+$user-image-border :#81A1C0;
+
+// Font-size
+$ft_8rem: .8rem;
+$ft1rem: 1rem;
+$ft1_5rem: 1.5rem;
+$ft2rem: 2rem;
+$ft3rem: 3rem;
+
+// Font-weight
+$fw100:100;
+$fw200:200;
+$fw300:300;
+$fw400:400;
+$fw500:500;
+$fw600:600;
+$fw700:700;
+$fw800:800;
+$fw900:900;
+$fwb: bold;
+$fwbl: bolder; 

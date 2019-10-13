@@ -1,0 +1,46 @@
+.work-exp-section {
+
+    width: 100%;
+    @include margin(0, 0, 2rem, 0);    
+    h1 {
+        @include header_TAG($work-exp-main-heading-text, $ft2rem, $fw700, underline, under); 
+    }
+    h3 {
+        @include header_TAG($work-exp-heading-text, $ft1_5rem, $fw900, none, auto); 
+        @include margin(1rem);
+    }
+    h4 {
+        @include header_TAG($work-exp-heading-text, $ft1_5rem, $fw400, none, auto); 
+        @include margin(.5rem);
+    }
+    div:first-of-type {
+        @include sub-text;
+        @include margin(.5rem);
+    }
+    div:nth-last-of-type(2) {
+         @include sub-text;
+         @include margin(.5rem);
+    }
+    div:last-of-type {
+        @include padding(0, 0, 0, 1rem);
+        @include margin(.4rem);
+
+        ul {
+            font-size: $ft1rem;
+            line-height: 1.5;
+            letter-spacing: .2px;
+            list-style: none;
+
+            li::before {
+                content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                color: $work-exp-main-heading-text; /* Change the color */
+                font-weight: bold; /* If you want it to be bold */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                font-size: 120%;
+                width: .8em; /* Also needed for space (tweak if needed) */
+                margin-left: -1rem; /* Also needed for space (tweak if needed) */
+            }
+        }
+    }
+    
+}

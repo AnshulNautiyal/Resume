@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: $body-default-fonts;
+    font-size: $body-default-font-size;
+    background: #303D46;
+}
+
+.work-skill-section {
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 100vh;
+    @include padding(3rem,0,3rem,3rem);
+    background: #fff;
+    display: flex;
+    &__work {
+        width: 45%;
+    }
+    &__skills {
+        width:45%;
+        @include padding(0, 0, 0, 3rem);
+    }
+}

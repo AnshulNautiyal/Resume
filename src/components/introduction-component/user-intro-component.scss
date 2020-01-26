@@ -1,43 +1,40 @@
-
 .resume-user-intro-container {
-    width: 1000px;
-    min-height: 15rem;
-    background: $user-section-background;
+  width: 1000px;
+  min-height: 15rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+  color: $user-text;
+
+  display: flex;
+
+  &__user-detail {
+    max-width: 45rem;
+
+    &--name {
+      font-size: $ft3rem;
+    }
+    &--designation {
+      font-size: $ft1_5rem;
+    }
+    &--summary {
+      margin-top: 1rem;
+      font-size: $ft1rem;
+      line-height: 22px;
+    }
+  }
+
+  &__user-profile {
+    position: relative;
+    flex-grow: 0.8;
     margin: 0 auto;
-    padding: 2.5rem;
-    color: $user-text;
+    border-radius: 100%;
+    border: 0.5rem solid $user-image-border;
+    background: $user-text;
+    overflow: hidden;
 
-    display: flex;
-    
-    &__user-detail {
-        max-width: 45rem;
-
-        &--name {
-            font-size: $ft3rem;
-        }
-        &--designation {
-            font-size: $ft1_5rem;
-        }
-        &--summary {
-            margin-top: 1rem;
-            font-size: $ft1rem;
-            line-height: 22px;
-        }
+    img {
+      position: absolute;
+      width: 100%;
     }
-
-    &__user-profile {
-        
-        position: relative;
-        flex-grow: 0.8;
-        margin: 0 auto;
-        border-radius: 100%;
-        border: .5rem solid $user-image-border;
-        background: $user-text;
-        overflow: hidden;
-
-        img {
-            position: absolute;
-            width: 100%;
-        }
-    }
+  }
 }

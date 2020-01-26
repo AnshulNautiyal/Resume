@@ -1,6 +1,8 @@
-@import './variable.scss';
-@import './mixin.scss';
-@import './common.scss';
-@import '../components/introduction-component/user-intro-component.scss';
-@import './../components/contact-component/contact-component.scss';
-@import '../components/work-experience-component/experience.scss';
+@import "./variable.scss";
+@import "./mixin.scss";
+@import "./mixin/flex-mixin.scss";
+@import "./common.scss";
+@import "../components/introduction-component/user-intro-component.scss";
+@import "./../components/contact-component/contact-component.scss";
+@import "../components/work-experience-component/experience.scss";
+@import "./../components/color-change-component/ColorChange.scss";

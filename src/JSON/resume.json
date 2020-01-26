@@ -1,73 +1,96 @@
 {
-    "user-intro" : {
-
-        "name": "Anshul Nautiyal",
-        "designation" : "Front-End / React / Node Developer",
-        "summary" : "Versatile Front-end Developer with 3+ years of experience in designing, developing, and managing complex sites. Specializes in ReactJS. Build responsive websites and interactive features that drive business growth and improve UX.",
-        "imagePath" : "./../../image/anshul.jpg"
+  "user-intro": {
+    "name": "Anshul Nautiyal",
+    "designation": "Front-End / React / Node Developer",
+    "summary": "Versatile Front-end Developer with 3+ years of experience in designing, developing, and managing complex sites. Specializes in ReactJS. Build responsive websites and interactive features that drive business growth and improve UX.",
+    "imagePath": "./../../image/anshul.jpg"
+  },
+  "user-contact": {
+    "email": "anshulnautiyaldeo@gmail.com",
+    "phoneNumber": "8755647338",
+    "personalSite": "anshuljs.000webhostapp.com/",
+    "github": "github.com/AnshulNautiyal"
+  },
+  "work-skill-section": [
+    {
+      "mainHeading": "WORK EXPERIENCE",
+      "designation": "Front-End Developer",
+      "companyName": "AJIO.com",
+      "startDate": "05/2019",
+      "endDate": "Present",
+      "location": "Bangalore",
+      "subHeading": "Achievements/Tasks",
+      "achievementsList": [
+        "GAS 30 second sale - Developed UI & Awarded as Team Player",
+        "Developed Size Guide & Size recommend feature in PDP Page",
+        "Developed customer care complaint registration",
+        "Worked in UI development on Ajio Payment Gateway & implemented Google Tag Manager"
+      ]
     },
-    "user-contact" : {
-        
-        "email": "anshulnautiyaldeo@gmail.com",
-        "phoneNumber" : "8755647338",
-        "personalSite" : "anshuljs.000webhostapp.com/",
-        "github" : "github.com/AnshulNautiyal"
+    {
+      "mainHeading": "",
+      "designation": "Front-End Developer",
+      "companyName": "Wipro",
+      "startDate": "06/2016",
+      "endDate": "04/2019",
+      "location": "Bangalore",
+      "subHeading": "Achievements/Tasks",
+      "achievementsList": [
+        "Responsible for creating front end design according to user’s requirements and style guide",
+        "Rendered dynamic data-driven web pages as per JSON, performed validations, analyzed the flow of website, checked its performance for different inputs",
+        "Found the bugs/issues and solved it before deadlines, found few security issues in UI layer and fixed"
+      ]
     },
-    "work-skill-section": [
-        {
-            "mainHeading": "WORK EXPERIENCE",
-            "designation": "Front-End Developer",
-            "companyName": "AJIO.com",
-            "startDate": "05/2019",
-            "endDate": "Present",
-            "location": "Bangalore",
-            "subHeading": "Achievements/Tasks",
-            "achievementsList":[
-                "GAS 30 second sale - Developed UI & Awarded as Team Playe",
-                "Developed Size Guide & Size recommend feature in PDP Page",
-                "Developed customer care complaint registration",
-                "Worked in UI development on Ajio Payment Gateway & implemented Google Tag Manager"
-            ]
-        },
-        {
-            "mainHeading": "",
-            "designation": "Front-End Developer",
-            "companyName": "Wipro",
-            "startDate": "06/2016",
-            "endDate": "04/2019",
-            "location": "Bangalore",
-            "subHeading": "Achievements/Tasks",
-             "achievementsList":[
-                 "Responsible for creating front end design according to user’s requirements and style guide",
-                 "Rendered dynamic data-driven web pages as per JSON, performed validations, analyzed the flow of website, checked its performance for different inputs",
-                 "Found the bugs/issues and solved it before deadlines, found few security issues in UI layer and fixed"
-            ]
-        },
-        {
-            "mainHeading": "",
-            "designation": "Front-End Developer",
-            "companyName": "Side-Projects",
-            "startDate": "",
-            "endDate": "",
-            "location": "",
-            "subHeading": "Projects",
-            "achievementsList":[
-                "Created Portfolio to enhance my CSS3 skills",
-                "Hotel & Fight Booking website to enhance CSS3 Flexbox property",
-                "Online food ordering website with awesome animation.",
-                "Check my Github for more : https://github.com/AnshulNautiyal"
-            ]
-        },
-        {
-            "mainHeading": "EDUCATION",
-            "designation": "B.Tech (CSE)",
-            "companyName": "Graphic Era Hill University",
-            "startDate": "06/2012",
-            "endDate": " 06/2016",
-            "location": "8 CGPA",
-            "subHeading": "",
-            "achievementsList":[]
-        }
-        
-    ]
+    {
+      "mainHeading": "",
+      "designation": "Front-End Developer",
+      "companyName": "Side-Projects",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "subHeading": "Projects",
+      "achievementsList": [
+        "Created Portfolio to enhance my CSS3 skills",
+        "Hotel & Fight Booking website to enhance CSS3 Flexbox property",
+        "Online food ordering website with awesome animation.",
+        "Check my Github for more : https://github.com/AnshulNautiyal"
+      ]
+    },
+    {
+      "mainHeading": "EDUCATION",
+      "designation": "B.Tech (CSE)",
+      "companyName": "Graphic Era Hill University",
+      "startDate": "06/2012",
+      "endDate": " 06/2016",
+      "location": "8 CGPA",
+      "subHeading": "",
+      "achievementsList": []
+    }
+  ],
+  "resumeColor": [
+    {
+      "lightColor": "#4E90CD",
+      "darkColor": "#2273b5"
+    },
+    {
+      "lightColor": "#1BBFAF",
+      "darkColor": "#189a8e"
+    },
+    {
+      "lightColor": "#3e69d2",
+      "darkColor": "#1B4099"
+    },
+    {
+      "lightColor": "#f99591",
+      "darkColor": "#F07873"
+    },
+    {
+      "lightColor": "#8e75b1",
+      "darkColor": "#715D8D"
+    },
+    {
+      "lightColor": "#4f44ab",
+      "darkColor": "#332C6E"
+    }
+  ]
 }

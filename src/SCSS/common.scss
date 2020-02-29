@@ -11,7 +11,22 @@ body {
     font-size: $body-default-font-size;
     background: #303D46;
 }
-
+.download--button {
+    display: inline-block;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    width: 150px;
+    height: 50px;
+    background: rgb(78, 144, 205);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    @include defaultFlex();
+    color: $user-text;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
 .work-skill-section {
     margin: 0 auto;
     width: 1000px;

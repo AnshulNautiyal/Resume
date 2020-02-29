@@ -1,11 +1,16 @@
 import React from "react";
 
-export default props => (
-  <div
-    className={props.className}
-    style={{ backgroundColor: props.backgroundColor }}
-  >
-    {" "}
-    {props.children}{" "}
-  </div>
-);
+export default props => {
+  const { id = "", className = "", backgroundColor = "" } = props;
+
+  return (
+    <div
+      className={className}
+      style={{ backgroundColor: backgroundColor }}
+      id={id}
+    >
+      {" "}
+      {props.children}{" "}
+    </div>
+  );
+};

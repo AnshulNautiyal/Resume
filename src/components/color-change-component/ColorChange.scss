@@ -1,4 +1,8 @@
 .color-container {
+
+  &::-webkit-scrollbar {
+    display: none; // Hide scroll bar but still scroll
+  }
   position: absolute;
   top: 50%;
   left: 10%;

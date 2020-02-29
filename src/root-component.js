@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { PDFExport } from "@progress/kendo-react-pdf";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import WrapperComponent from "./components/utility-components/wrapper-component";
 import Introduction from "./components/introduction-component";
 import ContactParent from "./components/contact-component";
@@ -8,25 +11,45 @@ import { ColorChange } from "./components/color-change-component/ColorChange";
 
 export default () => {
   const workSkill = workExp["work-skill-section"];
+  let resume = null;
+  const [backgroundColor, setBackgroundColor] = useColorHooks();
   const experienceData = workSkill.map((item, index) => (
     <Experience key={index} {...item} />
   ));
 
-  const [backgroundColor, setBackgroundColor] = useColorHooks();
+  const downloadPdf = () => {
+    resume.save();
+  };
   return (
-    <WrapperComponent className="resume-body">
-      <Introduction backgroundColor={backgroundColor} />
-      <ContactParent backgroundColor={backgroundColor.darkColor} />
-      <WrapperComponent className="work-skill-section">
-        <WrapperComponent className="work-skill-section__work">
-          {experienceData}
+    <>
+      <div onClick={downloadPdf} style={{ backgroundColor: backgroundColor }} className="download--button" >
+        DOWNLOAD
+      </div>
+      <PDFExport
+        scale={0.6}
+        paperSize="A4"
+        fileName="_____.pdf"
+        title=""
+        subject=""
+        keywords=""
+        ref={r => (resume = r)}
+      >
+        <WrapperComponent className="resume-body" id="generatePdfDom">
+          <Introduction backgroundColor={backgroundColor} />
+          <ContactParent backgroundColor={backgroundColor.darkColor} />
+          <WrapperComponent className="work-skill-section">
+            <WrapperComponent className="work-skill-section__work">
+              {experienceData}
+            </WrapperComponent>
+            <WrapperComponent className="work-skill-section__skills">
+              <Experience mainHeader={true} />
+            </WrapperComponent>
+          </WrapperComponent>
         </WrapperComponent>
-        <WrapperComponent className="work-skill-section__skills">
-          <Experience mainHeader={true} />
-        </WrapperComponent>
-      </WrapperComponent>
+      </PDFExport>
+
       <ColorChange setBackgroundColor={setBackgroundColor} />
-    </WrapperComponent>
+    </>
   );
 };
 

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.aa883b7a.chunk.css",
+    "main.js": "/my-app/static/js/main.304cb7b9.chunk.js",
+    "main.js.map": "/my-app/static/js/main.304cb7b9.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.344f1afa.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.344f1afa.js.map",
+    "static/js/2.61952328.chunk.js": "/my-app/static/js/2.61952328.chunk.js",
+    "static/js/2.61952328.chunk.js.map": "/my-app/static/js/2.61952328.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.f6f1b9d6318904b4f39c0e096d65df3e.js": "/my-app/precache-manifest.f6f1b9d6318904b4f39c0e096d65df3e.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/main.aa883b7a.chunk.css.map": "/my-app/static/css/main.aa883b7a.chunk.css.map",
+    "static/media/anshul.jpg": "/my-app/static/media/anshul.0614f088.jpg",
+    "static/media/camera.png": "/my-app/static/media/camera.d6e937b8.png",
+    "static/media/email.svg": "/my-app/static/media/email.a426cbe2.svg",
+    "static/media/github.svg": "/my-app/static/media/github.617870e4.svg",
+    "static/media/mobile.svg": "/my-app/static/media/mobile.742e7c69.svg"
+  }
+}

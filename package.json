@@ -2,6 +2,7 @@
   "name": "resume-builder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anshulnautiyal.github.io/my-app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
@@ -9,6 +10,8 @@
     "@progress/kendo-drawing": "^1.6.0",
     "@progress/kendo-react-pdf": "^3.11.0",
     "@react-pdf/renderer": "^1.6.8",
+    "gh-pages": "^3.1.0",
+    "html2canvas": "^1.0.0-rc.5",
     "jspdf": "^1.5.3",
     "node-sass": "^4.12.0",
     "react": "^16.10.1",
@@ -16,6 +19,8 @@
     "react-scripts": "3.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
